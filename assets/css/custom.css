@@ -1,0 +1,65 @@
+/* -- Start:: UMKM HEADER -- */
+.navbar-header {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+.navbar-header .navbar-brand {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.umkm-banner {
+    width: 100%;
+    object-fit: cover;
+}
+.linear-bg {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(244,244,244,1) 100%);
+    margin-top: -32px;
+}
+/* -- End:: UMKM HEADER -- */
+
+/* -- Start:: UMKM FOOTER -- */
+.umkm-footer {
+    background-color: #F7941D;
+}
+.umkm-footer .umkm-footer_logo {
+    display: flex;
+    align-items: center;
+}
+.umkm-footer .umkm-footer_logo a {
+    display: block;
+}
+.umkm-footer .umkm-footer_logo .logo-mi img {
+    margin-right: 35px;
+}
+.umkm-footer .umkm-copyright {
+    display: block;
+    text-align: right;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+    .umkm-footer .umkm-footer_logo {
+        display: block;
+        text-align: center;
+    }
+    .umkm-footer .umkm-footer_logo .logo-mi img {
+        width: 280px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .umkm-footer .umkm-footer_logo .logo-lima img {
+        width: 100px;
+    }
+    .umkm-footer .umkm-copyright {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+/* -- End:: UMKM FOOTER -- */
+
