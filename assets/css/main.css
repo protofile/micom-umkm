@@ -30,18 +30,18 @@
     /* Typography */
     h1 { font-size: 48px;line-height: 77px; }
     h2 { font-size: 36px;line-height: 58px; }
-    h3 { font-size: 28px;line-height: 45px; }
-    h4 { font-size: 24px;line-height: 38px; }
-    h5 { font-size: 20px;line-height: 32px; }
-    h6 { font-size: 16px;line-height: 26px; }
-    p { font-size: 14px;line-height: 22px; }
+    h3 { font-size: 28px;line-height: 1.5em; }
+    h4 { font-size: 24px;line-height: 1.5em; }
+    h5 { font-size: 20px;line-height: 1.5em; }
+    h6 { font-size: 16px;line-height: 1.5em; }
+    p { font-size: 14px;line-height: 1.5em; }
 
     .pix-inline-block { display: inline-block; }
     .pix-full-width { width: 100%; }
     .big-text-60 { font-size: 60px;line-height: 86px; }
-    .big-text-24 { font-size: 24px;line-height: 38px; }
-    .big-text-20 { font-size: 20px;line-height: 32px; }
-    .big-text { font-size: 16px;line-height: 26px; }
+    .big-text-24 { font-size: 24px;line-height: 1.5em; }
+    .big-text-20 { font-size: 20px;line-height: 1.5em; }
+    .big-text { font-size: 16px;line-height: 1.5em; }
     .small-text { font-size: 14px; }
 
     .pix-sm-lineheight { line-height: 58px; }
@@ -92,7 +92,7 @@
     .gray-2-bg { background: #eee; }
     .gray-3-bg { background: #ddd; }
     .white-bg { background: #fff;  }
-    .orange-bg { background: #f7941d; }
+    .orange-bg { background: #F6941E; }
     .blue-bg { background: #59a3fc; }
     .purple-bg { background: #9000F0; }
     .green-blue-bg { background: #00a78e; }
@@ -123,10 +123,9 @@
     .pix-white { color: #fff; }
     .pix-light-white { color: #ddd; }
     .pix-slight-white { color: #bbb; }
-    .pix-gray { color: #999; }
+    .pix-gray { color: #888888; }
     .pix-light-gray { color: #aaa; }
-    .pix-orange { color: #f7941d; }
-    .pix-orange-2 { color: #ffdfb8; }
+    .pix-orange { color: #F7941D; }
     .pix-blue { color: #59a3fc; }
     .pix-purple { color: #9000F0; }
     .pix-green-blue { color: #00a78e; }
@@ -644,7 +643,7 @@
 
 
         .pix_nav_menu.pix-over-header {
-            background: #444 !important;
+            background: #8E552A !important;
         }
         .navbar-header {
             border-bottom: 2px solid rgba(0,0,0,0.3);

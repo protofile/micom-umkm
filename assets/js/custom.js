@@ -258,7 +258,7 @@ function pix_scroll_menu(){
 			scroll_col = "col-md-10";
 		}
 
-		var sh2 = '<div class="pix_scroll_menu pix_menu_hidden" style="'+scroll_bg+'">'+
+		var sh2 = '<div class="pix_scroll_menu pix_menu_hidden" style="padding: 10px 0;'+scroll_bg+'">'+
 							'<div class="container">'+
 								'<div class="row">'+
 									'<div class="pix-inner-col '+scroll_col+'">'+
@@ -266,7 +266,7 @@ function pix_scroll_menu(){
 											'<nav class="navbar navbar-default pix-no-margin-bottom pix-navbar-default">'+
 												'<div class="container-fluid">'+
 													'<div class="navbar-header">'+
-														'<div class="navbar-brand pix-adjust-scroll"><a class="logo-img logo-img-a pix-adjust-height" href="#"><img src="assets/images/media_indonesia.png" alt="logo header" class="scroll_logo_mi" width="120"></a><a class="logo-img logo-img-a pix-adjust-height" href="#"><img src="assets/images/lima.png" alt="logo lima" class="scroll_logo_mi" width="40"></a></div>'+
+														'<div class="navbar-brand pix-adjust-scroll"><a class="logo-img logo-img-a pix-adjust-height" href="#"><img src="assets/images/media_indonesia.png" alt="logo header" class="scroll_logo_mi" height="40"></a><a class="logo-img logo-img-a pix-adjust-height" href="#"><img src="assets/images/lima.png" alt="logo lima" class="scroll_logo_mi" height="40"></a></div>'+
 														'<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">'+
 															'<img src="assets/images/icon_menu.png" alt="icon" width="35">'+
 														'</button>'+
