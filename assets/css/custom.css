@@ -803,6 +803,68 @@
     z-index: 3;
 }
 
+.menu{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background: #F7941D;
+    border-radius: 12px;
+    padding: 20px 0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    z-index: 9999;
+    transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -webkit-transition: all ease-out 0.3s;
+    opacity: 0;
+    pointer-events: none;
+}
+.menu .nav-item a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+.pix_nav_menu.sticky .menu{
+    top: 62px;
+    border-radius: 0 0 12px 12px;
+}
+.pix_section.pix-over-header{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.pix_nav_menu{
+    background: rgba(0,0,0,0);
+    transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -webkit-transition: all ease-out 0.3s;
+}
+.pix_nav_menu.sticky{
+    background: #8E552A;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.pix_nav_menu .navbar-brand .logo-img img{
+    width: 100%;
+    transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -webkit-transition: all ease-out 0.3s;
+    object-fit: contain;
+}
+.pix_nav_menu .navbar-brand .logo-mi img{
+    width: 223px;
+}
+.pix_nav_menu .navbar-brand .logo-lima img{
+    width: 98px;
+}
+.pix_nav_menu.sticky .navbar-brand .logo-mi img{
+    width: 150px;
+}
+.pix_nav_menu.sticky .navbar-brand .logo-lima img{
+    width: 70px;
+}
+
 @media screen and (min-width: 992px) {
     .umkm-type .type_img {
         height: 200px;
@@ -871,6 +933,27 @@
     }
     .umkm-type .type_img img {
         height: 130px;
+    }
+    .pix_nav_menu .navbar-brand .logo-mi img,
+    .pix_nav_menu .navbar-brand .logo-lima img,
+    .pix_nav_menu.sticky .navbar-brand .logo-mi img,
+    .pix_nav_menu.sticky .navbar-brand .logo-lima img{
+        width: 100%;
+    }
+    .navbar-header{
+        border-bottom: none;
+    }
+    .pix_nav_menu .menu{
+        width: 240px;
+        right: 0;
+        top: 68px;
+        position: fixed;
+        height: calc(100vh - 68px);
+        overflow-y: auto;
+        border-radius: 0;
+    }
+    .pix_nav_menu.sticky .menu{
+        top: 68px;
     }
 }
 /* -- End:: CONTENT UMKM -- */
