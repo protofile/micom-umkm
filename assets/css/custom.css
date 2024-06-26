@@ -313,7 +313,7 @@
     border-radius: 12px;
     padding: 15px 20px;
     position: relative;
-    transition: all 0.5s ease;
+    transition: background-color 0.5s ease !important;
 }
 .umkm-data_box::after {
     background-image: url('../images/vector-transparent.png');
@@ -327,7 +327,7 @@
     bottom: 0;
     opacity: 0;
     transition: background-color 0.5s ease;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in !important;
 }
 .umkm-data_box h5 {
     overflow: hidden;
