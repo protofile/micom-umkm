@@ -484,7 +484,7 @@
 				</div>
 				<div class="col-md-3 col-12">
 					<div data-aos="fade-left" data-aos-offset="400">
-						<a href="#" class="orange-bg2 btn pix-white pix-bold d-block text-center mt-4 mt-md-0">Lihat Undang-Undang</a>
+						<a href="#" class="popup-btn orange-bg2 btn pix-white pix-bold d-block text-center mt-4 mt-md-0">Lihat Undang-Undang</a>
 					</div>
 				</div>
 			</div>
@@ -795,6 +795,13 @@
 			</div>
 		</div>
 	</div>
+
+    <div class="overlay">
+        <div class="popup">
+            <div class="close-bt"><i class="fa fa-times"></i></div>
+            <iframe src="assets/uu-no-20-tahun-2008.pdf" frameborder="0"></iframe>
+        </div>
+    </div>
 	
 
 	<!-- Javascript -->
@@ -809,6 +816,16 @@
 	<script src="assets/js/custom.js"></script>
 	<script>
 		AOS.init();
+
+        $(document).ready(function(){
+          $(".popup-btn").click(function(pb){
+            pb.preventDefault();
+            $(".overlay").addClass("show");
+          });
+          $(".popup .close-bt").click(function(){
+            $(".overlay").removeClass("show");
+          });
+        });
 	</script>
 </body>
 </html>
