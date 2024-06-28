@@ -226,10 +226,14 @@
 .umkm-content_about .umkm-box-bg ul li:not(:last-child) {
   margin-bottom: 16px;
 }
-.umkm-content_about .umkm-box-center img {
+.umkm-content_about .umkm-box-center img,
+.umkm-content_about .umkm-box-center lottie-player {
   width: 478px;
   max-width: 100%;
   margin-top: 50px;
+}
+.umkm-content_about .umkm-box-center lottie-player {
+  margin-top: -50px;
 }
 @media screen and (max-width: 767.9px) {
   .umkm-content_about {
@@ -411,10 +415,14 @@
   top: 0;
   bottom: 0;
   margin: auto;
-  left: -90px;
+  left: -120px;
 }
-.umkm-section-kriteria .umkm-kriteria_item .kriteria_img img {
+.umkm-section-kriteria .umkm-kriteria_item .kriteria_img img,
+.umkm-section-kriteria .umkm-kriteria_item .kriteria_img lottie-player {
   height: 180px;
+}
+.umkm-section-kriteria .umkm-kriteria_item .kriteria_img lottie-player {
+  width: 300px !important;
 }
 
 @media screen and (max-width: 767.9px) {
@@ -439,7 +447,8 @@
     left: auto;
     text-align: center;
   }
-  .umkm-section-kriteria .umkm-kriteria_item .kriteria_img img {
+  .umkm-section-kriteria .umkm-kriteria_item .kriteria_img img,
+  .umkm-section-kriteria .umkm-kriteria_item .kriteria_img lottie-player {
     height: 110px;
   }
   .umkm-section-kriteria .umkm-kriteria_item::before,
@@ -459,11 +468,12 @@
   margin: 0 auto;
   padding: 60px 12px 0 12px;
 }
-.umkm-manfaat .img-manfaat {
+.umkm-manfaat .img-manfaat,
+.umkm-manfaat lottie-player {
   margin: 0 auto;
   display: table;
-  width: 336px;
-  margin-bottom: -15px;
+  width: 400px !important;
+  margin-bottom: -40px;
 }
 .umkm-manfaat .list-manfaat li h6 {
   font-family: "Montserrat", sans-serif;
@@ -869,6 +879,11 @@
 }
 .pix_nav_menu.sticky .navbar-brand .logo-lima img {
   width: 70px;
+}
+
+lottie-player {
+  width: 100% !important;
+  height: auto !important;
 }
 
 @media screen and (min-width: 992px) {
