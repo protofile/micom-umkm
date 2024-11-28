@@ -438,7 +438,7 @@ body {
   height: 180px;
 }
 .umkm-section-kriteria .umkm-kriteria_item .kriteria_img lottie-player {
-  width: 300px !important;
+  width: 200px !important;
 }
 
 @media screen and (max-width: 767.9px) {
