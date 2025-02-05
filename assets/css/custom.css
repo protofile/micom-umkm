@@ -47,6 +47,9 @@ body {
   position: relative;
   z-index: 1;
 }
+.umkm-banner video{
+  width: 100%;
+}
 .linear-bg {
   background: linear-gradient(
     0deg,
